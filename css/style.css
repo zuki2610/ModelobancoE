@@ -1,0 +1,107 @@
+span {
+font-family: 'Great Vibes', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+
+}
+.curve {
+  background-color: #333;
+  height: 120px;
+  width: 380px;
+  border-top: 3px solid #474747;
+  border-bottom-left-radius: 48%;
+  border-bottom-right-radius: 48%;
+  background: rgb(109,111,128);
+  background: linear-gradient(90deg, rgba(109,111,128,1) 0%, rgba(93,93,93,1) 46%, rgba(0,0,0,1) 100%);
+}
+img {
+  margin-left: 7vw;
+  height: 45px;
+}
+.logo {
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+}
+.float {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  color:blue;
+  float: right;
+  margin-right: 11.5vw;
+  margin-top: 3.5vh;
+}
+.user {
+ font-size: 35px;
+}
+.saludo {
+  margin-top: 7vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 64vw;
+}
+.titulo {
+  margin-top: 5vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 64vw;
+}
+.padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 136px;
+  width: 300px;
+  background-color:#fff;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 4px; 
+  margin-left: 8vw;
+}
+.fila-1{
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  width: 90%;
+}
+
+.hijo {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+.hijo-3 {
+  background-color: #fff;
+  border-right: 1.5px solid #d0d0d0;
+  margin-top: 1vh;
+  text-align: center;
+  padding-right: 1vw;
+  margin-right: -5vw;
+}
+.fila-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  border-top: 1.5px solid #d0d0d0;
+}
+.boton {
+  margin-bottom: 10vh;;
+  margin-top: 15vh;
+  margin-left: 7.5vw;
+  width: 300px;
+  height: 40px;
+  background-color: #ff9100;
+  border: none;
+  border-radius: 18px;
+  box-shadow:
+  inset 0 -0em 0em rgba(0,0,0,0.1),
+        0.0em 0.3em 1em rgba(0,0,0,0.2);
+}
